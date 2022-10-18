@@ -23,7 +23,7 @@
           <li class = "nav-item">
             <a class = "nav-link" href = "#">
               <img src = "/Users/emmiekao/Desktop/Computing Principles - Web Development/Web-Design/dsfc_logo.png"
-              alt = "Logo" style = "width:40px" class = "rounded-0">
+              alt = "Logo" style = "width:40px" class = "rounded-pill">
             </a>
           </li>
           <li class = "nav-item">
@@ -55,38 +55,39 @@
         </ul>
       </div>
     </nav>
-    <div id = "title_pics" class = "carousel slide" data-bs-ride = "carousel">
+    <div class = "overlay"><h1>Data Science for Change</h1></div>
+    <div id = "title_pics" class = "carousel slide">
       <div class = "carousel-indicators">
         <button type = "button" data-bs-target = "#title_pics" data-bs-slide-to = "0" class = "active"></button>
-        <button type = "button" data-bs-target = "#title_pics" data-bs-slide-to = "1" class = "active"></button>
-        <button type = "button" data-bs-target = "#title_pics" data-bs-slide-to = "2" class = "active"></button>
+        <button type = "button" data-bs-target = "#title_pics" data-bs-slide-to = "1"></button>
+        <button type = "button" data-bs-target = "#title_pics" data-bs-slide-to = "2"></button>
       </div>
-    </div>
-    <div class = "carousel-inner">
+      <div class = "carousel-inner">
+          <div class = "carousel-item active">
+            <img src = "navyblue.png" alt = "img1" class = "d-block" style = "width:100%">
+            <div class = "carousel-title">
+              <div id = "fadein" class = "carousel-caption text-white">
+                <h1>Data Science for Change</h1>
+                <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
+              </div>
+            </div>
+          </div>
         <div class = "carousel-item active">
           <img src = "navyblue.png" alt = "img1" class = "d-block" style = "width:100%">
           <div class = "carousel-title">
             <div id = "fadein" class = "carousel-caption text-white">
-              <h1>Data Science for Change</h1>
+              <h1>PAGE 2</h1>
               <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
             </div>
           </div>
         </div>
-      <div class = "carousel-item active">
-        <img src = "navyblue.png" alt = "img1" class = "d-block" style = "width:100%">
-        <div class = "carousel-title">
-          <div id = "fadein" class = "carousel-caption text-white">
-            <h1>PAGE 2</h1>
-            <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
-          </div>
-        </div>
-      </div>
-      <div class = "carousel-item active">
-        <img src = "navyblue.png" alt = "img1" class = "d-block" style = "width:100%">
-        <div class = "carousel-title">
-          <div id = "fadein" class = "carousel-caption text-white">
-            <h1>PAGE 3</h1>
-            <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
+        <div class = "carousel-item active">
+          <img src = "navyblue.png" alt = "img1" class = "d-block" style = "width:100%">
+          <div class = "carousel-title">
+            <div id = "fadein" class = "carousel-caption text-white">
+              <h1>PAGE 3</h1>
+              <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
+            </div>
           </div>
         </div>
       </div>
@@ -97,7 +98,7 @@
         <span class = "carousel-control-next-icon"><span>
       </button>
     </div>
-    <div class="row">
+    <div id = "fadein" class="row">
       <div class = "col-lg-6 col-sm-12 bg-primary text-white">
         Lorem ipsum dolor sit amet. Qui rerum et ducimus voluptatum ex deserunt
         voluptas. Nam magni sapiente qui maxime obcaecati et voluptates perferendis
