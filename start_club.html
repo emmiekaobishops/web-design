@@ -15,20 +15,18 @@
     <script src="site_js.js"></script>
   </head>
   <body>
-    <nav class = "navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-      <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbar">
+    <nav class = "navbar navbar-expand-sm navbar-dark sticky-top navy-color" style="opacity: .9">
+      <a class = "nav-link" href = "index.html">
+        <img src = "dsfc_logo.png"
+        alt = "Logo" style = "width:40px;" class = "rounded-pill">
+      </a>
+      <button style="margin-right: 10px;" class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbar">
         <span class = "navbar-toggler-icon"></span>
       </button>
       <div class = "collapse navbar-collapse" id = "navbar">
-        <ul class = "navbar-nav">
+        <ul class = "navbar-nav" style="margin-left: auto; margin-right: auto;">
           <li class = "nav-item">
-            <a class = "nav-link" href = "home_page.html">
-              <img src = "/Users/emmiekao/Desktop/Computing Principles - Web Development/Web-Design/dsfc_logo.png"
-              alt = "Logo" style = "width:40px" class = "rounded-pill">
-            </a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href = "home_page.html">Home</a>
+            <a class = "nav-link" href = "index.html">Home</a>
           </li>
           <div class = "nav-item dropdown">
             <button class="dropbtn">About us</button>
@@ -60,21 +58,9 @@
       <div class = "carousel-inner">
           <div class = "carousel-item active">
             <img src = "wordlogo.png" alt = "img1" class = "d-block" style = "width:100%">
-            <div class = "carousel-title">
-              <div id = "fadein" class = "carousel-caption text-white align-middle">
-                <h1>Data Science for Change</h1>
-                <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
-              </div>
-            </div>
           </div>
         <div class = "carousel-item active">
           <img src = "wordlogo.png" alt = "img1" class = "d-block" style = "width:100%">
-          <div class = "carousel-title">
-            <div id = "fadein" class = "carousel-caption text-white">
-              <h1>PAGE 2</h1>
-              <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
-            </div>
-          </div>
         </div>
         <div class = "carousel-item active">
           <img src = "wordlogo.png" alt = "img1" class = "d-block" style = "width:100%">
@@ -87,7 +73,7 @@
                 <div class = "col-6">
                   <div class = "d-grid gap-2 text-dark">
                     <h2>Want to use numbers to make the world a better place?</h2>
-                    <button type = "button" class = "btn btn-dark btn-rounded py-5" data-mdb-ripple-color = "dark"><h2>Learn More!</h2></button>
+                    <a type = "button" class = "btn btn-dark btn-rounded py-5" data-mdb-ripple-color = "dark" href = "who_are_we.html"><h2>Learn More!</h2></a>
                   </div>
               </div>
             </div>
@@ -104,7 +90,7 @@
     <div id = "fadein" class="row">
       <div class = "col-lg-6 col-sm-12 navy-color">
         <p class = "text-white"><emph>FORM (school, email, name)</emph></p>
-        <button type = "button" class = "btn btn-dark btn-rounded">Get Involved!</button>
+        <a type = "button" class = "btn btn-dark btn-rounded" href = "get_involved.html">Get Involved!</a>
       </div>
       <div class = "col-lg-6 col-sm-12 navy-color">
       </div>

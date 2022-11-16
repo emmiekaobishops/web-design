@@ -15,20 +15,18 @@
     <script src="site_js.js"></script>
   </head>
   <body>
-    <nav class = "navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-      <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbar">
+    <nav class = "navbar navbar-expand-sm navbar-dark sticky-top navy-color">
+      <a class = "nav-link" href = "index.html">
+        <img src = "dsfc_logo.png"
+        alt = "Logo" style = "width:40px;" class = "rounded-pill">
+      </a>
+      <button style="margin-right: 10px;" class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbar">
         <span class = "navbar-toggler-icon"></span>
       </button>
       <div class = "collapse navbar-collapse" id = "navbar">
-        <ul class = "navbar-nav">
+        <ul class = "navbar-nav" style="margin-left: auto; margin-right: auto;">
           <li class = "nav-item">
-            <a class = "nav-link" href = "home_page.html">
-              <img src = "/Users/emmiekao/Desktop/Computing Principles - Web Development/Web-Design/dsfc_logo.png"
-              alt = "Logo" style = "width:40px" class = "rounded-pill">
-            </a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href = "home_page.html">Home</a>
+            <a class = "nav-link" href = "index.html">Home</a>
           </li>
           <div class = "nav-item dropdown">
             <button class="dropbtn">About us</button>
@@ -56,58 +54,76 @@
         </ul>
       </div>
     </nav>
-    <div id = "title_pics" class = "carousel slide">
-      <div class = "carousel-inner">
-          <div class = "carousel-item active">
-            <img src = "wordlogo.png" alt = "img1" class = "d-block" style = "width:100%">
-            <div class = "carousel-title">
-              <div id = "fadein" class = "carousel-caption text-white align-middle">
-                <h1>Data Science for Change</h1>
-                <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
-              </div>
-            </div>
-          </div>
-        <div class = "carousel-item active">
-          <img src = "wordlogo.png" alt = "img1" class = "d-block" style = "width:100%">
-          <div class = "carousel-title">
-            <div id = "fadein" class = "carousel-caption text-white">
-              <h1>PAGE 2</h1>
-              <p>(I'm going to make a title and bigger label later; this is just a placeholder for now)</p>
-            </div>
-          </div>
-        </div>
-        <div class = "carousel-item active">
-          <img src = "wordlogo.png" alt = "img1" class = "d-block" style = "width:100%">
-          <div class = "carousel-title">
-            <div id = "fadein" class = "carousel-caption text-white fs-1">
-              <div class = "row">
-                <div class = "col-6 bg-dark text-white opacity-0">
-                  <p>placeholder</p>
-                </div>
-                <div class = "col-6">
-                  <div class = "d-grid gap-2 text-dark">
-                    <h2>Want to use numbers to make the world a better place?</h2>
-                    <button type = "button" class = "btn btn-dark btn-rounded py-5" data-mdb-ripple-color = "dark"><h2>Learn More!</h2></button>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class = "carousel-control-prev btn btn-secondary" type = "button" data-bs-target = "#title_pics" data-bs-slide = "prev">
-        <span class = "carousel-control-prev-icon"><span>
-      </button>
-      <button class = "carousel-control-next btn btn-secondary" type = "button" data-bs-target = "#title_pics" data-bs-slide = "next">
-        <span class = "carousel-control-next-icon"><span>
-      </button>
-    </div>
-    <div id = "fadein" class="row">
-      <div class = "col-lg-6 col-sm-12 navy-color">
+    <div id = "fadein" class="row navy-color" style='border-width:10px'>
+      <div class = "col-lg-6 col-sm-12">
         <h1 class = "text-white">WHO ARE WE?</h1>
-        <p class = "text-white"><emph>paragraph here</emph></p>
-        <button type = "button" class = "btn btn-dark btn-rounded">Get Involved!</button>
+        <p class = "text-white">At Data Science for Change, our mission is to
+          educate middle and high school-aged students about the field of data
+          science. More generally, we hope to raise awareness about this field
+          throughout middle and high schools in San Diego to better educate
+          future generations on educated policy-making. This ensures a future of
+           more effective, data-driven laws and policies.</p>
+        <a type = "button" class = "btn btn-dark btn-rounded" href = "get_involved.html">Get Involved!</a>
       </div>
       <div class = "col-lg-6 col-sm-12 navy-color">
+      </div>
+    </div>
+    <div id = "fadein" class = "row">
+      <div class = "col-lg-3 col-md-6 col-sm-12">
+        <div class = "card">
+          <img class = "card" src="dsfc_logo.png" alt = "Card image" style = "width:100%">
+          <div class = "card-body">
+            <h4 class = "card-title">Name</h4>
+            <p class = "card-text">Description</p>
+            <button type = "button" class = "btn btn-primary" data-bs-toggle = "collapse"
+            data-bs-target = "#bio" class = "collapse">See Bio</button>
+            <div id = "bio" class = "collapse">
+              bio
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "col-lg-3 col-md-6 col-sm-12">
+        <div class = "card">
+          <img class = "card" src="dsfc_logo.png" alt = "Card image" style = "width:100%">
+          <div class = "card-body">
+            <h4 class = "card-title">Name</h4>
+            <p class = "card-text">Description</p>
+            <button type = "button" class = "btn btn-primary" data-bs-toggle = "collapse"
+            data-bs-target = "#bio" class = "collapse">See Bio</button>
+            <div id = "bio" class = "collapse">
+              bio
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "col-lg-3 col-md-6 col-sm-12">
+        <div class = "card">
+          <img class = "card" src="dsfc_logo.png" alt = "Card image" style = "width:100%">
+          <div class = "card-body">
+            <h4 class = "card-title">Name</h4>
+            <p class = "card-text">Description</p>
+            <button type = "button" class = "btn btn-primary" data-bs-toggle = "collapse"
+            data-bs-target = "#bio" class = "collapse">See Bio</button>
+            <div id = "bio" class = "collapse">
+              bio
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class = "col-lg-3 col-md-6 col-sm-12">
+        <div class = "card">
+          <img class = "card" src="dsfc_logo.png" alt = "Card image" style = "width:100%">
+          <div class = "card-body">
+            <h4 class = "card-title">Name</h4>
+            <p class = "card-text">Description</p>
+            <button type = "button" class = "btn btn-primary" data-bs-toggle = "collapse"
+            data-bs-target = "#bio" class = "collapse">See Bio</button>
+            <div id = "bio" class = "collapse">
+              bio
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
