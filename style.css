@@ -1,6 +1,8 @@
 <style>
+
   .navbar {
     overflow: hidden;
+    z-index: 10;
   }
 
   .navbar a{
@@ -98,5 +100,4 @@
     opacity:1;
     transform:translate(0,0)
   }
-    )
 </style>
